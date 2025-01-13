@@ -1,0 +1,38 @@
+#grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "carousel carousel carousel"
+    "mission about about"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 90px 6fr 3fr 1fr;
+    border: 2px solid red;
+}
+
+#grid > section.nav {
+    grid-area: nav;
+    border: 2px solid red;
+}
+
+#grid > section.carousel {
+    grid-area: carousel;
+    border: 2px solid red;
+}
+
+#grid > section.missionStatement {
+    grid-area: mission;
+    border: 2px solid red;
+}
+
+#grid > section.aboutUs {
+    grid-area: about;
+    border: 2px solid red;
+}
+
+#grid > section.footer {
+    grid-area: footer;
+    border: 2px solid red;
+}

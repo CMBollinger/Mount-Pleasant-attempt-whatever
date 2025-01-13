@@ -1,0 +1,16 @@
+Your client wishes for you to build her a 4–5-page website. 
+She wants a webpage for home/landing page, adoption, volunteering, and FAQ.
+Each webpage needs to:
+•	Have navigation tools to access all the webpages on the site
+•	A footer with their contact information (found under Mt Pleasant Animal Shelter in the pdf)
+The Adoption page needs the following:
+•	All the information under Available for Adoption
+•	Pictures of each animal matching up with their name
+The Volunteer page needs the information under Volunteer Opportunities
+The FAQ page needs the information under FAQ
+It is up to your discretion for where to put the information from News, About Us. Put them in locations that make sense (even give them their own webpage if you need to). 
+The Home/Landing Page is completely up to you for what should go into it. 
+The design of the website is under your discretion be creative but make design choices that would be appropriate for a business like this and help make it stand out. 
+
+
+When you are finished compress you work to a .zip file and submit it on Canvas
