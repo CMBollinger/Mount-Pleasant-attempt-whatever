@@ -3,36 +3,54 @@
     width: 100%;
     height: auto;
     grid-template-areas: 
-    "nav nav nav"
+    "nav header header"
     "carousel carousel carousel"
     "mission about about"
     "footer footer footer";
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 90px 6fr 3fr 1fr;
-    border: 2px solid red;
+    grid-template-rows: 90px 6fr 2fr 168px;
 }
 
 #grid > section.nav {
     grid-area: nav;
-    border: 2px solid red;
 }
 
 #grid > section.carousel {
     grid-area: carousel;
-    border: 2px solid red;
 }
 
 #grid > section.missionStatement {
     grid-area: mission;
-    border: 2px solid red;
+    
 }
 
 #grid > section.aboutUs {
     grid-area: about;
-    border: 2px solid red;
+    
 }
 
 #grid > section.footer {
     grid-area: footer;
-    border: 2px solid red;
+    text-align: center;
+}
+
+#grid > section.header {
+    grid-area: header;
+}
+
+#fence, #home {
+    width: 80% !important;
+    margin: auto !important;
+}
+
+.lightblue {
+    color: #82c0cc;
+}
+
+.darkblue {
+    background-color: #2F4860;
+}
+
+.platinum {
+    color: #dde1e3;
 }

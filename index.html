@@ -13,23 +13,39 @@
 <body>
     <div id="grid">
         <section class="nav">
-            <nav>
-                 <ul>
-                    <li>home</li>
-                    <li>adopt</li>
-                    <li>volunteer</li>
-                    <li>FAQ</li>
-                </ul>
+            
+            <nav class="navbar bg-body-tertiary">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="./Skills Local Competition/Images/Path.jpeg" alt="Logo" width="100" height="" class="d-inline-block align-text-center">
+                  </a>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Adopt</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Volunteer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                  </li>
+          
+                </div>
             </nav>
         </section>
+        <section class="header">
+            <h1>Mount Pleasant Animal Shelter</h1>
+        </section>
         <section class="carousel">
-            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./Skills Local Competition/Images/fence.jpeg" class="d-block w-100" alt="...">
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner text-bg-dark">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img id="fence" src="./Skills Local Competition/Images/fence.jpeg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="./Skills Local Competition/Images/home.jpg" class="d-block w-100" alt="...">
+                    <img id="home" src="./Skills Local Competition/Images/home.jpg" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -42,9 +58,9 @@
                 </button>
               </div>
         </section>
-        <section class="missionStatement">
-            <h2>Mission Statement: </h2>
-                <ul>
+        <section class="missionStatement darkblue">
+            <h2 class="text-center lightblue">Mission Statement </h2>
+                <ul class="platinum mx-5">
                     <li>To engage the hearts, hands and minds of Mt. Pleasant to help abandoned, lost, and stray animals.</li>
                     <li>To educate the community in the humane treatment of animals. </li>
                     <li>To help Mt. Pleasant Animal Services maintain a low euthanasia facility through mandatory 
@@ -53,15 +69,16 @@
                     <li>To ensure that everybody understands that: “Everything we do is for the animals.”</li>
                  </ul>
         </section>
-        <section class="aboutUs">
-            <h1>About Us </h1>
-            <p>The Mt. Pleasant Animal Shelter is a city operated facility with one full time director, 1 full time animal 
+        <section class="aboutUs darkblue">
+            <div>
+            <h2 class="text-center lightblue">About Us</h2>
+            <p class="mx-5 platinum">The Mt. Pleasant Animal Shelter is a city operated facility with one full time director, 1 full time animal 
             control officer, one part time animal control officer and many dedicated volunteers. We take in stray, 
             abandoned, injured, and homeless dogs that are within the city limits of Mt. Pleasant. We are unable to 
             take in cats unless they are injured or un able to care for them selves, such as un-weaned, and 
             motherless kittens. Unfortunately, there is no state law or city ordinance against cats running at large at 
             this time. Our animal control officers are responsible for responding to calls for service relating to dogs 
-            at large, dog bites, and animal cruelty. Pet owners, please don’t let your dogs roam at large at any time 
+            at large, dog bites, and animal cruelty. </br> </br> Pet owners, please don’t let your dogs roam at large at any time 
             and keep a collar with a current rabies tag on them at all times. Provide your pet with access to food, 
             water, adequate shelter, and vet care, if needed, at all times. This is a state law and a city ordinance. We 
             will issue citations for these violations starting at $193.00. Please be a responsible pet owner. Dogs and 
@@ -70,12 +87,19 @@
             adoption fee of $25 . Those animals will then be made a spay or neuter appointment at one of our local 
             vets. We will take them to your choice of local vet and you will be responsible for picking up your new 
             pet and paying for their spay or neuter fee to the vet.</p>
+            </div>
         </section>
 
         <section class="footer">
-            <footer>
-                Placeholder footer
-            </footer>
+            <footer class="darkblue">
+                <p class="platinum">Hours:  OPEN 11:30 – 5:30 TUESDAYS, WEDNESDAYS AND       THURSDAYS OR BY APPOINTMENT </p>
+                <p class="platinum">Phone:   <a href="tel:+6157735533">(615) 773-5533</a></p>
+                <address class="platinum">
+                    115 Industrial Drive <br>
+                    Mt Pleasant, TN 37122 
+                </address>
+                <p class="platinum">Volunteer Coordinator:   Ashley Smith   <a href="mailto: Asmith@shelter.com">Asmith@shelter.com</a></p>
+                </footer>
         </section>
 
     </div>
